@@ -1,0 +1,17 @@
+# Ignore all log files
+*.log
+
+eslint.config.mjs
+
+# Ignore the build directory
+build/
+
+# Ignore specific temporary files
+temp.txt
+.DS_Store # macOS specific
+
+# Ignore node modules in JavaScript projects
+node_modules/
+
+# Exclude a specific file within an ignored directory
+!build/important_file.js
